@@ -17,3 +17,9 @@ public class GlobalExceptionHandler {
                              .body("An unexpected error occurred: " + ex.getMessage());
     }
 }
+public class UserNotFoundException extends RuntimeException {
+    public UserNotFoundException(String message) {
+        super(message);
+    }
+}
+
