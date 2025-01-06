@@ -1,0 +1,43 @@
+ohms/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── ohms/
+│   │   │           ├── controller/
+│   │   │           │   ├── UserController.java
+│   │   │           │   ├── AppointmentController.java
+│   │   │           │   └── ExceptionHandlerController.java
+│   │   │           ├── model/
+│   │   │           │   ├── User.java
+│   │   │           │   └── Appointment.java
+│   │   │           ├── repository/
+│   │   │           │   ├── UserRepository.java
+│   │   │           │   └── AppointmentRepository.java
+│   │   │           ├── service/
+│   │   │           │   ├── UserService.java
+│   │   │           │   └── AppointmentService.java
+│   │   │           ├── config/
+│   │   │           │   └── AppConfig.java
+│   │   │           └── exception/
+│   │   │               ├── GlobalExceptionHandler.java
+│   │   │               ├── UserNotFoundException.java
+│   │   │               └── ValidationException.java
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   ├── static/
+│   │   │   │   ├── css/
+│   │   │   │   ├── js/
+│   │   │   └── templates/
+│   │   │       ├── index.jsp
+│   │   │       ├── userProfile.jsp
+│   │   │       └── appointments.jsp
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── ohms/
+│                   ├── service/
+│                   │   └── UserServiceTest.java
+│                   └── repository/
+│                       └── UserRepositoryTest.java
+└── pom.xml
